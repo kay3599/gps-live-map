@@ -1,3 +1,4 @@
+ index.html
 // Initialize the map
 mapboxgl.accessToken = pk.eyJ1Ijoia2F5MzU5OSIsImEiOiJjbGdlN2tobXQyaHlwM2dxcml6czMzb2hnIn0.TTZhGEbBnLQayDm8RzFYOg
 var map = new mapboxgl.Map({
@@ -16,3 +17,4 @@ map.addControl(
     trackUserLocation: true
   })
 );
+
